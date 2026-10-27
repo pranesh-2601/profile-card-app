@@ -63,15 +63,22 @@ class ProfileCard extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const CircleAvatar(
-              radius: 36,
-              backgroundColor: Color(0xFFD9EFE8),
-              child: Text(
-                'AV',
-                style: TextStyle(
-                  color: Color(0xFF14564F),
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
+            Container(
+              padding: const EdgeInsets.all(4),
+              decoration: const BoxDecoration(
+                color: Color(0xFFEAF5F1),
+                shape: BoxShape.circle,
+              ),
+              child: const CircleAvatar(
+                radius: 36,
+                backgroundColor: Color(0xFFD9EFE8),
+                child: Text(
+                  'AV',
+                  style: TextStyle(
+                    color: Color(0xFF14564F),
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
