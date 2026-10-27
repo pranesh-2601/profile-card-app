@@ -1,8 +1,16 @@
 # Profile Card App
 
-A single-screen Flutter profile card built from Material widgets. It demonstrates a circular initials avatar, contact rows with icons, and a responsive layout for narrow screens.
+A single-screen Flutter profile card for Project 01. It uses `MaterialApp`, `Scaffold`, `AppBar`, `Card`, `CircleAvatar`, `Column`, `Row`, `Container`, and `Text` widgets, with a reusable `ContactRow` for email, phone, and location.
 
-## Run
+The sample profile uses fictional details: Asha Verma, Flutter Intern, asha@example.com, +91 90000 00000, Pune, India.
+
+## Run in DartPad
+
+Open [DartPad](https://dartpad.dev/), choose Flutter, paste `lib/main.dart`, and select **Run**. The card is centered in a `ConstrainedBox` with a maximum width of 360 pixels and the screen scrolls on short displays.
+
+A widget is a reusable building block that describes part of a Flutter interface and how it should look or behave.
+
+## Run locally
 
 Install the Flutter SDK, then run:
 
@@ -10,5 +18,3 @@ Install the Flutter SDK, then run:
 flutter pub get
 flutter run
 ```
-
-Edit `lib/main.dart` to customize the sample profile.
